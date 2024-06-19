@@ -1,3 +1,4 @@
+import MeatingTypeList from '@/components/MeatingTypeList';
 import React from 'react'
 
 const Home = () => {
@@ -19,6 +20,8 @@ console.log(timeInSriLanka);
     </div>
    </div>
   </div>
+
+  <MeatingTypeList />
     </section>
   )
 }
